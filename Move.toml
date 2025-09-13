@@ -1,0 +1,15 @@
+[package]
+name = "on-chain-event-logger"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0xc929184366e6d5af2ea4e28d4605b5b5e8fcacfa44d6b7941a1253db019187aa"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
